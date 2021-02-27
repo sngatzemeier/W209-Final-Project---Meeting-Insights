@@ -53,7 +53,3652 @@
   <div id="vis"></div>
   <script>
     (function(vegaEmbed) {
-      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-0e4919a3d319acaf2071a627de08ce27"}, "mark": "rect", "encoding": {"color": {"type": "quantitative", "field": "Meeting Count"}, "x": {"type": "nominal", "field": "StartHour", "sort": ["1 AM", "2 AM", "3 AM", "4 AM", "5 AM", "6 AM", "7 AM", "8 AM", "9 AM", "10 AM", "11 AM", "12 PM", "1 PM", "2 PM", "3 PM", "4 PM", "5 PM", "6 PM", "7 PM", "8 PM", "9 PM", "10 PM", "11 PM", "12 AM"], "title": "Meeting Start Hour"}, "y": {"type": "nominal", "field": "StartDay", "sort": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], "title": "Meeting Day of Week"}}, "height": 300, "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-0e4919a3d319acaf2071a627de08ce27": [{"StartDay": "Friday", "StartHour": "1 PM", "Meeting Count": 5074}, {"StartDay": "Friday", "StartHour": "10 AM", "Meeting Count": 4662}, {"StartDay": "Friday", "StartHour": "11 AM", "Meeting Count": 4765}, {"StartDay": "Friday", "StartHour": "12 PM", "Meeting Count": 4673}, {"StartDay": "Friday", "StartHour": "2 PM", "Meeting Count": 5828}, {"StartDay": "Friday", "StartHour": "3 PM", "Meeting Count": 5488}, {"StartDay": "Friday", "StartHour": "4 PM", "Meeting Count": 4686}, {"StartDay": "Friday", "StartHour": "5 PM", "Meeting Count": 4126}, {"StartDay": "Friday", "StartHour": "7 AM", "Meeting Count": 310}, {"StartDay": "Friday", "StartHour": "8 AM", "Meeting Count": 2614}, {"StartDay": "Friday", "StartHour": "9 AM", "Meeting Count": 4287}, {"StartDay": "Monday", "StartHour": "1 PM", "Meeting Count": 3232}, {"StartDay": "Monday", "StartHour": "10 AM", "Meeting Count": 2996}, {"StartDay": "Monday", "StartHour": "11 AM", "Meeting Count": 2966}, {"StartDay": "Monday", "StartHour": "12 PM", "Meeting Count": 3078}, {"StartDay": "Monday", "StartHour": "2 PM", "Meeting Count": 3925}, {"StartDay": "Monday", "StartHour": "3 PM", "Meeting Count": 3502}, {"StartDay": "Monday", "StartHour": "4 PM", "Meeting Count": 3042}, {"StartDay": "Monday", "StartHour": "5 PM", "Meeting Count": 2052}, {"StartDay": "Monday", "StartHour": "7 AM", "Meeting Count": 296}, {"StartDay": "Monday", "StartHour": "8 AM", "Meeting Count": 2337}, {"StartDay": "Monday", "StartHour": "9 AM", "Meeting Count": 2888}, {"StartDay": "Saturday", "StartHour": "1 PM", "Meeting Count": 4280}, {"StartDay": "Saturday", "StartHour": "10 AM", "Meeting Count": 3679}, {"StartDay": "Saturday", "StartHour": "11 AM", "Meeting Count": 3597}, {"StartDay": "Saturday", "StartHour": "12 PM", "Meeting Count": 3918}, {"StartDay": "Saturday", "StartHour": "2 PM", "Meeting Count": 4629}, {"StartDay": "Saturday", "StartHour": "3 PM", "Meeting Count": 4601}, {"StartDay": "Saturday", "StartHour": "4 PM", "Meeting Count": 3891}, {"StartDay": "Saturday", "StartHour": "5 PM", "Meeting Count": 3698}, {"StartDay": "Saturday", "StartHour": "7 AM", "Meeting Count": 235}, {"StartDay": "Saturday", "StartHour": "8 AM", "Meeting Count": 1941}, {"StartDay": "Saturday", "StartHour": "9 AM", "Meeting Count": 3433}, {"StartDay": "Sunday", "StartHour": "1 PM", "Meeting Count": 3569}, {"StartDay": "Sunday", "StartHour": "10 AM", "Meeting Count": 3252}, {"StartDay": "Sunday", "StartHour": "11 AM", "Meeting Count": 3190}, {"StartDay": "Sunday", "StartHour": "12 PM", "Meeting Count": 3365}, {"StartDay": "Sunday", "StartHour": "2 PM", "Meeting Count": 4180}, {"StartDay": "Sunday", "StartHour": "3 PM", "Meeting Count": 3688}, {"StartDay": "Sunday", "StartHour": "4 PM", "Meeting Count": 3223}, {"StartDay": "Sunday", "StartHour": "5 PM", "Meeting Count": 2231}, {"StartDay": "Sunday", "StartHour": "7 AM", "Meeting Count": 320}, {"StartDay": "Sunday", "StartHour": "8 AM", "Meeting Count": 2365}, {"StartDay": "Sunday", "StartHour": "9 AM", "Meeting Count": 3235}, {"StartDay": "Thursday", "StartHour": "1 PM", "Meeting Count": 5678}, {"StartDay": "Thursday", "StartHour": "10 AM", "Meeting Count": 4982}, {"StartDay": "Thursday", "StartHour": "11 AM", "Meeting Count": 5029}, {"StartDay": "Thursday", "StartHour": "12 PM", "Meeting Count": 5250}, {"StartDay": "Thursday", "StartHour": "2 PM", "Meeting Count": 6624}, {"StartDay": "Thursday", "StartHour": "3 PM", "Meeting Count": 5669}, {"StartDay": "Thursday", "StartHour": "4 PM", "Meeting Count": 5048}, {"StartDay": "Thursday", "StartHour": "5 PM", "Meeting Count": 2978}, {"StartDay": "Thursday", "StartHour": "7 AM", "Meeting Count": 545}, {"StartDay": "Thursday", "StartHour": "8 AM", "Meeting Count": 3935}, {"StartDay": "Thursday", "StartHour": "9 AM", "Meeting Count": 4817}, {"StartDay": "Tuesday", "StartHour": "1 PM", "Meeting Count": 3341}, {"StartDay": "Tuesday", "StartHour": "10 AM", "Meeting Count": 2950}, {"StartDay": "Tuesday", "StartHour": "11 AM", "Meeting Count": 2950}, {"StartDay": "Tuesday", "StartHour": "12 PM", "Meeting Count": 3072}, {"StartDay": "Tuesday", "StartHour": "2 PM", "Meeting Count": 3808}, {"StartDay": "Tuesday", "StartHour": "3 PM", "Meeting Count": 3447}, {"StartDay": "Tuesday", "StartHour": "4 PM", "Meeting Count": 3079}, {"StartDay": "Tuesday", "StartHour": "5 PM", "Meeting Count": 2163}, {"StartDay": "Tuesday", "StartHour": "7 AM", "Meeting Count": 302}, {"StartDay": "Tuesday", "StartHour": "8 AM", "Meeting Count": 2055}, {"StartDay": "Tuesday", "StartHour": "9 AM", "Meeting Count": 2863}, {"StartDay": "Wednesday", "StartHour": "1 PM", "Meeting Count": 6280}, {"StartDay": "Wednesday", "StartHour": "10 AM", "Meeting Count": 5865}, {"StartDay": "Wednesday", "StartHour": "11 AM", "Meeting Count": 5868}, {"StartDay": "Wednesday", "StartHour": "12 PM", "Meeting Count": 5892}, {"StartDay": "Wednesday", "StartHour": "2 PM", "Meeting Count": 7299}, {"StartDay": "Wednesday", "StartHour": "3 PM", "Meeting Count": 7405}, {"StartDay": "Wednesday", "StartHour": "4 PM", "Meeting Count": 6205}, {"StartDay": "Wednesday", "StartHour": "5 PM", "Meeting Count": 6760}, {"StartDay": "Wednesday", "StartHour": "7 AM", "Meeting Count": 297}, {"StartDay": "Wednesday", "StartHour": "8 AM", "Meeting Count": 2579}, {"StartDay": "Wednesday", "StartHour": "9 AM", "Meeting Count": 5661}]}};
+      var spec = {
+  "config": {"view": {"continuousWidth": 400, "continuousHeight": 300}},
+  "vconcat": [
+    {
+      "layer": [
+        {
+          "mark": "rect",
+          "encoding": {
+            "color": {"type": "quantitative", "field": "Meeting Count"},
+            "x": {
+              "type": "nominal",
+              "field": "StartHour",
+              "sort": [
+                "1 AM",
+                "2 AM",
+                "3 AM",
+                "4 AM",
+                "5 AM",
+                "6 AM",
+                "7 AM",
+                "8 AM",
+                "9 AM",
+                "10 AM",
+                "11 AM",
+                "12 PM",
+                "1 PM",
+                "2 PM",
+                "3 PM",
+                "4 PM",
+                "5 PM",
+                "6 PM",
+                "7 PM",
+                "8 PM",
+                "9 PM",
+                "10 PM",
+                "11 PM",
+                "12 AM"
+              ],
+              "title": "Meeting Start Hour"
+            },
+            "y": {
+              "type": "nominal",
+              "field": "StartDay",
+              "sort": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ],
+              "title": "Meeting Day of Week"
+            }
+          },
+          "height": 200,
+          "width": 550
+        },
+        {
+          "mark": "point",
+          "encoding": {
+            "color": {"value": "grey"},
+            "size": {
+              "type": "quantitative",
+              "field": "Meeting Count",
+              "legend": {"title": "Meeting Count in Selection"}
+            },
+            "x": {
+              "type": "nominal",
+              "field": "StartHour",
+              "sort": [
+                "1 AM",
+                "2 AM",
+                "3 AM",
+                "4 AM",
+                "5 AM",
+                "6 AM",
+                "7 AM",
+                "8 AM",
+                "9 AM",
+                "10 AM",
+                "11 AM",
+                "12 PM",
+                "1 PM",
+                "2 PM",
+                "3 PM",
+                "4 PM",
+                "5 PM",
+                "6 PM",
+                "7 PM",
+                "8 PM",
+                "9 PM",
+                "10 PM",
+                "11 PM",
+                "12 AM"
+              ],
+              "title": "Meeting Start Hour"
+            },
+            "y": {
+              "type": "nominal",
+              "field": "StartDay",
+              "sort": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ],
+              "title": "Meeting Day of Week"
+            }
+          },
+          "height": 200,
+          "transform": [{"filter": {"selection": "selector009"}}],
+          "width": 550
+        }
+      ]
+    },
+    {
+      "mark": "bar",
+      "encoding": {
+        "color": {
+          "condition": {"value": "steelblue", "selection": "selector009"},
+          "value": "grey"
+        },
+        "x": {"type": "nominal", "field": "Organizer_FunctionType"},
+        "y": {"type": "quantitative", "aggregate": "count"}
+      },
+      "height": 200,
+      "selection": {"selector009": {"type": "single", "encodings": ["x"]}},
+      "width": 550
+    }
+  ],
+  "data": {"name": "data-0d7f3d1ee23cb312ea72afc491122413"},
+  "resolve": {"legend": {"color": "independent", "size": "independent"}},
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json",
+  "datasets": {
+    "data-0d7f3d1ee23cb312ea72afc491122413": [
+      {
+        "StartDay": "Friday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 405
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 572
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 612
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 253
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1266
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 759
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 639
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 568
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 437
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 523
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 534
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 194
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1231
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 661
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 515
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 567
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 401
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 509
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 515
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 280
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1277
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 684
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 544
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 555
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 415
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 536
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 575
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 236
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1220
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 674
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 493
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 524
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 501
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 682
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 669
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 246
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1529
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 909
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 667
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 625
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 447
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 566
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 540
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 238
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1538
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 840
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 605
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 714
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 414
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 518
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 514
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 198
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1345
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 637
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 494
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 566
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 326
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 466
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 460
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 198
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1078
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 608
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 496
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 494
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 1
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 157
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 152
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 246
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 224
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 236
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 90
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 802
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 366
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 204
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 446
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 373
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 429
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 444
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 184
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1173
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 672
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 460
+      },
+      {
+        "StartDay": "Friday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 552
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 241
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 384
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 370
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 176
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 829
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 507
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 400
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 325
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 309
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 327
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 344
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 136
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 824
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 420
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 357
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 279
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 282
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 316
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 332
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 123
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 814
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 435
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 350
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 314
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 279
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 327
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 347
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 131
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 833
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 464
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 343
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 354
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 352
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 395
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 424
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 170
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1085
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 650
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 430
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 419
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 320
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 342
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 356
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 139
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1030
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 486
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 384
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 445
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 243
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 311
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 305
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 131
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 884
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 439
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 347
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 382
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 207
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 244
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 192
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 84
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 566
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 303
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 222
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 234
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 1
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 2
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 162
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 131
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 237
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 190
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 210
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 89
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 700
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 371
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 228
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 312
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 253
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 305
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 319
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 137
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 801
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 432
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 316
+      },
+      {
+        "StartDay": "Monday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 325
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 366
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 485
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 495
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 214
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1056
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 635
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 547
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 482
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 334
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 391
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 414
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 173
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 908
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 561
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 444
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 454
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 310
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 390
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 386
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 178
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 943
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 540
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 443
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 407
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 319
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 411
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 458
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 190
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1037
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 587
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 484
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 432
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 414
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 564
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 492
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 207
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1180
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 712
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 549
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 511
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 410
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 457
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 476
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 180
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1296
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 719
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 521
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 542
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 299
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 386
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 445
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 167
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1066
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 580
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 444
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 504
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 342
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 400
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 391
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 193
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 968
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 523
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 447
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 434
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 1
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 1
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 124
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 109
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 168
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 139
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 163
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 62
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 636
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 307
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 196
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 270
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 325
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 348
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 331
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 143
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 997
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 526
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 368
+      },
+      {
+        "StartDay": "Saturday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 395
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 269
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 499
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 420
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 157
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 881
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 503
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 458
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 382
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 282
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 324
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 375
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 166
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 819
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 492
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 391
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 403
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 273
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 351
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 354
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 148
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 871
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 442
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 365
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 386
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 265
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 385
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 406
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 145
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 902
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 529
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 388
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 345
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 381
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 487
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 467
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 172
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1056
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 662
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 508
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 447
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 300
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 397
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 378
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 127
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1113
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 486
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 419
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 468
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 286
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 334
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 348
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 145
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 888
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 460
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 382
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 380
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 205
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 243
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 253
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 103
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 587
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 316
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 260
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 264
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 1
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 178
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 141
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 211
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 196
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 190
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 80
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 736
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 409
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 235
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 308
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 282
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 340
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 312
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 157
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 856
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 491
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 390
+      },
+      {
+        "StartDay": "Sunday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 407
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 485
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 702
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 662
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 276
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1399
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 891
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 685
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 578
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 434
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 591
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 569
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 226
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1334
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 716
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 568
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 544
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 442
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 568
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 533
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 246
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1370
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 730
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 587
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 553
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 410
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 599
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 562
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 266
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1472
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 731
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 620
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 590
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 634
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 708
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 719
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 281
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1742
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 1071
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 746
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 723
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 518
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 563
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 531
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 244
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1671
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 800
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 582
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 760
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 466
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 537
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 562
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 231
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1328
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 715
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 621
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 588
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 268
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 353
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 327
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 135
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 790
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 455
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 328
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 322
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 1
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 283
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 2
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 259
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 362
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 335
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 356
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 147
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1168
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 677
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 364
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 526
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 454
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 515
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 536
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 240
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1282
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 692
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 548
+      },
+      {
+        "StartDay": "Thursday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 550
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 303
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 383
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 375
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 176
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 838
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 517
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 418
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 331
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 259
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 355
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 300
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 136
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 805
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 447
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 313
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 335
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 238
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 347
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 322
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 140
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 763
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 457
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 348
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 335
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 290
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 347
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 313
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 141
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 811
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 448
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 381
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 341
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 309
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 428
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 431
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 179
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1039
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 585
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 441
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 396
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 287
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 353
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 344
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 149
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 989
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 522
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 347
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 456
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 274
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 344
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 328
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 143
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 888
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 449
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 316
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 337
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 175
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 242
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 242
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 96
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 571
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 336
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 264
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 237
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 1
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 1
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 175
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 125
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 194
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 182
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 181
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 84
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 590
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 346
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 195
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 283
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 261
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 310
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 307
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 130
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 780
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 416
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 326
+      },
+      {
+        "StartDay": "Tuesday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 333
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 546
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 775
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 729
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 263
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1639
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 908
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 757
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "1 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 663
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 483
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 666
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 692
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 263
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1558
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 823
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 682
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "10 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 698
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 512
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 626
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 668
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 304
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1554
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 832
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 686
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "11 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 686
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 531
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 650
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 702
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 274
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1547
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 896
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 691
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "12 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 601
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 592
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 842
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 854
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 363
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1862
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 1133
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 885
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "2 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 768
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 633
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 752
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 814
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 309
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 2047
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 1140
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 788
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "3 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 922
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 523
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 703
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 634
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 229
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1845
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 833
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 667
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "4 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 771
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 578
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 726
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 767
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 305
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1821
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 994
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 768
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "5 PM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 801
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 155
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "7 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 142
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 205
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 202
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 192
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 71
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 876
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 352
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 210
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "8 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 471
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Engineering",
+        "Meeting Count": 505
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Finance",
+        "Meeting Count": 590
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "G_and_A",
+        "Meeting Count": 559
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "IT",
+        "Meeting Count": 234
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Marketing",
+        "Meeting Count": 1594
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Operations",
+        "Meeting Count": 884
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "R_and_D",
+        "Meeting Count": 601
+      },
+      {
+        "StartDay": "Wednesday",
+        "StartHour": "9 AM",
+        "Organizer_FunctionType": "Sales",
+        "Meeting Count": 694
+      }
+    ]
+  }
+};
       var embedOpt = {"mode": "vega-lite"};
 
       function showError(el, error){
