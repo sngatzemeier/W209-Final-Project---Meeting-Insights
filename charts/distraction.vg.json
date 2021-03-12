@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "background": "white",
   "padding": 5,
-  "width": 600,
+  "width": 900,
   "title": {
     "text": "Note: Select Points for Cumulative Cost of Selected Meetings",
     "align": "left",
