@@ -44,12 +44,47 @@
 								<li><a href="contact-us.html">Contact Us</a></li>
 							</ul>
 						</nav>
-
-
 				</div>
 
 			<!-- Main -->
 				<div class="wrapper style1">
+				<article id="main" class="special">
+					<div class="container">
+					<header>
+						<h2>Global Meeting Schedule Chart</h2>
+						<p>
+							This interactive heat map report shows how your organization is collaborating across the globe.  
+						</p>
+					</header>
+					<head>
+                       	<style>
+                    		.error {
+                           		color: red;
+                    		}
+                    	</style>
+                        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+                        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+                        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+                    </head>
+                    <body>
+                    	<div id="vis"></div>
+                    	<script type="text/javascript">
+                      		vegaEmbed('#vis', "https://people.ischool.berkeley.edu/~sngatzemeier/W209/charts/balance.vg.json").then(function(result) {	
+                       			}).catch(console.error);
+                       	</script>
+                    </body>
+					<section>		
+						<p>
+							This report can be used to understand and optimize their collaboration time.  By selecting a department on the bar chart, you will see their meeting schedule times encoded in the circles for easy comparison to the overall organization’s meeting times.  
+
+							From this example organization we can see that there are definitely weekend and later evening meetings that could impact team member work/life balance.  In fact, all departments have weekend meetings that are similar to average weekday. This is even for customer facing teams like sales and marketing.  Another potential issue is that Friday and Saturday evenings have meetings starting at 6pm. For this example of a global organization, Operations is located in China has very little to no overlapping working time with operations collaboration groups, like engineering. Management would be advised to put in place recommended working guidelines and windows for collaboration time. Sales meetings could be later in the day for the East Coast and earlier in the day with the west coast. IT (located in India) would need to be a 24x7 customer service operation as they would need to meet the demands of their working customers. This could be split into two groups, development and customer service. Where development IT engineers could work during the days in India and the service teams could work a night shift.
+
+							For tips on how to manage a team across multiple time zones, please refer to this article <a href="https://hbr.org/2014/06/managing-a-team-across-5-time-zones">'Managing a team across 5 time zones' from the Harvard Business Review</a>.
+						</p>
+					</section>
+				<hr />
+				</div>
+				</article>
 
 					<div class="container">
 						<div class="row gtr-200">
@@ -128,37 +163,7 @@
 							</div>
 							<div class="col-8 col-12-mobile imp-mobile" id="content">
 								<article id="main">
-									<header>
-										<h2>Global Meeting Schedule Chart</h2>
-										<p>
-											This interactive heat map report shows how your organization is collaborating across the globe.  
-										</p>
-									</header>
-									<head>
-                                      	<style>
-                                   			.error {
-                                    		color: red;
-                                			}
-                              			</style>
-                              			<script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
-                              			<script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
-                              			<script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
-                            		</head>
-                            		<body>
-                              			<div id="vis"></div>
-                              			<script type="text/javascript">
-                                			vegaEmbed('#vis', "https://people.ischool.berkeley.edu/~sngatzemeier/W209/charts/balance.vg.json").then(function(result) {	
-                                			}).catch(console.error);
-                              			</script>
-                            		</body>
 									
-									<p>
-										This report can be used to understand and optimize their collaboration time.  By selecting a department on the bar chart, you will see their meeting schedule times encoded in the circles for easy comparison to the overall organization’s meeting times.  
-
-										From this example organization we can see that there are definitely weekend and later evening meetings that could impact team member work/life balance.  In fact, all departments have weekend meetings that are similar to average weekday. This is even for customer facing teams like sales and marketing.  Another potential issue is that Friday and Saturday evenings have meetings starting at 6pm. For this example of a global organization, Operations is located in China has very little to no overlapping working time with operations collaboration groups, like engineering. Management would be advised to put in place recommended working guidelines and windows for collaboration time. Sales meetings could be later in the day for the East Coast and earlier in the day with the west coast. IT (located in India) would need to be a 24x7 customer service operation as they would need to meet the demands of their working customers. This could be split into two groups, development and customer service. Where development IT engineers could work during the days in India and the service teams could work a night shift.
-
-										For tips on how to manage a team across multiple time zones, please refer to this article <a href="https://hbr.org/2014/06/managing-a-team-across-5-time-zones">'Managing a team across 5 time zones' from the Harvard Business Review</a>.
-									</p>
 									<section>
 										<header>
 											<h2>Meeting Start Time Trending</h2>
