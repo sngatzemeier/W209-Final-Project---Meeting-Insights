@@ -16,6 +16,7 @@ Data used in this project was provided by instructor Fereshteh Amini. We are usi
 
 **Final Product Webpage:**
 https://people.ischool.berkeley.edu/~sngatzemeier/W209/index.html
+https://people.ischool.berkeley.edu/~nagachandra/index.html (same page as above)
 
 **Project Presentation Walkthrough Video:**
 
