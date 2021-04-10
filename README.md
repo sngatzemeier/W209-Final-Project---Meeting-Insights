@@ -1,7 +1,7 @@
 # W209 Final Project - Meeting Insights
- Repository for W209 Final Project
- W209 - Data Visualization (Wed 6:30-8:00pm)
- Author: Scott Gatzemeier, Naga Chandrasekaran, Rama Rangavajjula
+## Repository for W209 Final Project
+## W209 - Data Visualization (Wed 6:30-8:00pm)
+## Author: Scott Gatzemeier, Naga Chandrasekaran, Rama Rangavajjula
 
 **Project Scope:**
 
@@ -9,7 +9,4 @@ Collaboration has a significant value by which it enables organizations to achie
 Data used in this project was provided by instructor Fereshteh Amini. We are using this data to perform mock analysis and create visualizations, develop hypotheses, and understand if we are able to answer the hypothesis. This report presents initial exploratory data analysis and hypothesis.
 
 Repository Explaination
-As Kanye West said:
 
-> We're living the future so
-> the present is our past.
