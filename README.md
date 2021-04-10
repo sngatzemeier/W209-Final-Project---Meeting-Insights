@@ -3,7 +3,7 @@ Final-Project---Meeting Insights
 
 <img align="right" width="180" src="./images/berkeley.png"/>
 
-#### Authors: [Naga Chandrasekaran](https://github.com/nagachandrasekaran) | [Scott Gatzemeier](https://github.com/sngatzemeier) | [Rama Rangavajjula]
+#### Authors: [Naga Chandrasekaran](https://github.com/nagachandrasekaran) | [Scott Gatzemeier](https://github.com/sngatzemeier) | [Rama Rangavajjula](https://github.com/rkrama)
 #### Instructor: Fereshteh Amini <br> 
 U.C. Berkeley, Masters in Information & Data Science program - [datascience@berkeley](https://datascience.berkeley.edu/) 
 
