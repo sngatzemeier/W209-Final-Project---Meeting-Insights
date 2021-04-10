@@ -1,4 +1,4 @@
-# W209 Final Project - Meeting Insights
+Meeting Insights
 #### Repository for W209 Final Project
 #### W209 - Data Visualization (Wed 6:30-8:00pm)
 #### Author: Scott Gatzemeier, Naga Chandrasekaran, Rama Rangavajjula
