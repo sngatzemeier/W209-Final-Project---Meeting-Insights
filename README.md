@@ -1,8 +1,13 @@
-Meeting Insights
-#### Repository for W209 Final Project
-#### W209 - Data Visualization (Wed 6:30-8:00pm)
-#### Authors: Scott Gatzemeier, Naga Chandrasekaran, Rama Rangavajjula
-#### Instructor: Fereshteh Amini
+Final-Project---Meeting Insights
+====================================================
+
+<img align="right" width="180" src="./images/berkeley.png"/>
+
+#### Authors: [Naga Chandrasekaran](https://github.com/nagachandrasekaran) | [Scott Gatzemeier](https://github.com/sngatzemeier) | [Rama Rangavajjula]
+#### Instructor: Fereshteh Amini <br> 
+U.C. Berkeley, Masters in Information & Data Science program - [datascience@berkeley](https://datascience.berkeley.edu/) 
+
+Spring 2021, W209 - Data Visualization - Wed. 6:30pm PDT
 
 **Project Scope:**
 
