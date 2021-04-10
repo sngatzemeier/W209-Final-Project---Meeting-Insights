@@ -35,7 +35,5 @@ https://people.ischool.berkeley.edu/~sngatzemeier/W209/index.html
   |assets | .. | .js scipts that support site |
   |charts | .. | vega-lite charts for site generated from Altair |
   |tableau_workbooks | .. | Tableau workbook for Visualizations |
-  |data | [test.csv](test.csv) | Test dataset, Number of Records: 565892 and Number of Features: 55 |
-  |data | [train.csv](train.csv) | Dataset used to train models, Number of Records: 15120 and Number of Features: 56|
 
 
