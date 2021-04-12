@@ -19,6 +19,7 @@ https://people.ischool.berkeley.edu/~sngatzemeier/W209/index.html
 https://people.ischool.berkeley.edu/~nagachandra/index.html (same page as above)
 
 **Project Presentation Walkthrough Video:**
+https://zoom.us/rec/share/CD5Qi7vqGUOmIEq5GoMKTsuYLPX2TCqvfDm__kx8sE0oVU_TQ3ZjEtDzS3zH8lP_.P2xObLdjV95gMl01
 
 **Repository Explaination**
   |Folder | File | Description |
