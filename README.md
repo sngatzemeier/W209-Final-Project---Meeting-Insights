@@ -5,7 +5,7 @@ Final-Project---Meeting Insights
 
 #### Authors: [Naga Chandrasekaran](https://github.com/nagachandrasekaran) | [Scott Gatzemeier](https://github.com/sngatzemeier) | [Rama Rangavajjula](https://github.com/rkrama)
 #### Instructor: Fereshteh Amini <br> 
-U.C. Berkeley, Masters in Information & Data Science program - [datascience@berkeley](https://datascience.berkeley.edu/) 
+U.C. Berkeley, Masters in Information & Data Science Program - [datascience@berkeley](https://datascience.berkeley.edu/) 
 
 Spring 2021, W209 - Data Visualization - Wed. 6:30pm PDT
 
@@ -15,8 +15,11 @@ Collaboration has a significant value by which it enables organizations to achie
 Data used in this project was provided by instructor Fereshteh Amini. We are using this data to perform mock analysis and create visualizations, develop hypotheses, and understand if we are able to answer the hypothesis. This report presents initial exploratory data analysis and hypothesis.
 
 **Final Product Webpage:**
+One link each for Scott, Naga and Rama are provided below. They launch the same Meetings Insights Webpage.
+
 https://people.ischool.berkeley.edu/~sngatzemeier/W209/index.html
-https://people.ischool.berkeley.edu/~nagachandra/index.html (same page as above)
+https://people.ischool.berkeley.edu/~nagachandra/index.html
+https://people.ischool.berkeley.edu/~rrangava/index.html
 
 **Project Presentation Walkthrough Video:**
 https://zoom.us/rec/share/CD5Qi7vqGUOmIEq5GoMKTsuYLPX2TCqvfDm__kx8sE0oVU_TQ3ZjEtDzS3zH8lP_.P2xObLdjV95gMl01
