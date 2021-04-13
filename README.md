@@ -19,8 +19,10 @@ Data used in this project was provided by instructor Fereshteh Amini. We are usi
 One link each for Scott, Naga and Rama are provided below. They launch the same Meetings Insights Webpage.
 
 https://people.ischool.berkeley.edu/~sngatzemeier/W209/index.html
-/n https://people.ischool.berkeley.edu/~nagachandra/index.html
-/n https://people.ischool.berkeley.edu/~rrangava/index.html
+
+https://people.ischool.berkeley.edu/~nagachandra/index.html
+
+https://people.ischool.berkeley.edu/~rrangava/index.html
 
 **Project Presentation Walkthrough Video:**
 https://zoom.us/rec/share/CD5Qi7vqGUOmIEq5GoMKTsuYLPX2TCqvfDm__kx8sE0oVU_TQ3ZjEtDzS3zH8lP_.P2xObLdjV95gMl01
