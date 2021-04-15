@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0315.1000                               -->
+<workbook original-version='18.1' source-build='2020.4.3 (20204.21.0315.1000)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Time (meeting likert scale-time)' inline='true' name='federated.1q3atnt0999nqj18sauej1mfvmgc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='meeting likert scale-time' name='excel-direct.0vw91t7025rvip1dzwlqu10t5fx8'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/W209/Usability Study/meeting likert scale-time.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0vw91t7025rvip1dzwlqu10t5fx8' name='Time' table='[Time$]' type='table'>
+          <columns gridOrigin='A1:C10:no:A1:C10:0' header='yes' outcome='6'>
+            <column datatype='string' name='Question Topic' ordinal='0' />
+            <column datatype='integer' name='Time (min)' ordinal='1' />
+            <column datatype='integer' name='User ID' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0vw91t7025rvip1dzwlqu10t5fx8' name='Time' table='[Time$]' type='table'>
+          <columns gridOrigin='A1:C10:no:A1:C10:0' header='yes' outcome='6'>
+            <column datatype='string' name='Question Topic' ordinal='0' />
+            <column datatype='integer' name='Time (min)' ordinal='1' />
+            <column datatype='integer' name='User ID' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Time]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:C10:no:A1:C10:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Question Topic</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Question Topic]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Question Topic</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_7ABBA3201C704A31893B4EDCE70F2080]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time (min)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Time (min)]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>Time (min)</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_7ABBA3201C704A31893B4EDCE70F2080]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>User ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[User ID]</local-name>
+            <parent-name>[Time]</parent-name>
+            <remote-alias>User ID</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_7ABBA3201C704A31893B4EDCE70F2080]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[User ID]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Time' datatype='table' name='[__tableau_internal_object_id__].[Time_7ABBA3201C704A31893B4EDCE70F2080]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/W209/Usability Study/Time (meeting likert scale-time).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='04/07/2021 03:46:15 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='Time (meeting likert scale-time)' increment-value='%null%' refresh-type='create' rows-inserted='9' timestamp-start='2021-04-07 03:46:15.099' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Question Topic</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Question Topic]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Question Topic</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Time</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_7ABBA3201C704A31893B4EDCE70F2080]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Time (min)</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Time (min)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Time (min)</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Time</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_7ABBA3201C704A31893B4EDCE70F2080]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>User ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[User ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>User ID</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Time</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Time_7ABBA3201C704A31893B4EDCE70F2080]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Time' id='Time_7ABBA3201C704A31893B4EDCE70F2080'>
+            <properties context=''>
+              <relation connection='excel-direct.0vw91t7025rvip1dzwlqu10t5fx8' name='Time' table='[Time$]' type='table'>
+                <columns gridOrigin='A1:C10:no:A1:C10:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Question Topic' ordinal='0' />
+                  <column datatype='integer' name='Time (min)' ordinal='1' />
+                  <column datatype='integer' name='User ID' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Topic - Time(mins)/User'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Time (meeting likert scale-time)' name='federated.1q3atnt0999nqj18sauej1mfvmgc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1q3atnt0999nqj18sauej1mfvmgc'>
+            <column datatype='string' name='[Question Topic]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Time (min)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[User ID]' role='dimension' type='ordinal' />
+            <column-instance column='[Question Topic]' derivation='None' name='[none:Question Topic:nk]' pivot='key' type='nominal' />
+            <column-instance column='[User ID]' derivation='None' name='[none:User ID:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Time (min)]' derivation='Sum' name='[sum:Time (min):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1q3atnt0999nqj18sauej1mfvmgc].[none:User ID:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1q3atnt0999nqj18sauej1mfvmgc].[sum:Time (min):qk]</rows>
+        <cols>([federated.1q3atnt0999nqj18sauej1mfvmgc].[none:Question Topic:nk] / [federated.1q3atnt0999nqj18sauej1mfvmgc].[none:User ID:ok])</cols>
+      </table>
+      <simple-id uuid='{8300A443-DAB3-4C6C-81F3-C1424026CFBA}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Topic - Time(mins)/User'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1q3atnt0999nqj18sauej1mfvmgc].[none:User ID:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1q3atnt0999nqj18sauej1mfvmgc].[none:Question Topic:nk]</field>
+            <field>[federated.1q3atnt0999nqj18sauej1mfvmgc].[none:User ID:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{780CD335-4360-408E-8D67-EE68E9499095}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Topic - Time(mins)/User' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

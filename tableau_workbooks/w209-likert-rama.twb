@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0315.1000                               -->
+<workbook original-version='18.1' source-build='2020.4.3 (20204.21.0315.1000)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Likert (meeting likert scale-likert)' inline='true' name='federated.0ko8y561he96131fy29151sh3ejt' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='meeting likert scale-likert' name='excel-direct.15lpinw1p72hzz1eqepjb1210axz'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/W209/Usability Study/meeting likert scale-likert.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.15lpinw1p72hzz1eqepjb1210axz' name='Likert' table='[Likert$]' type='table'>
+          <columns gridOrigin='A1:C7:no:A1:C7:0' header='yes' outcome='2'>
+            <column datatype='string' name='Questions' ordinal='0' />
+            <column datatype='integer' name='Ratings' ordinal='1' />
+            <column datatype='integer' name='User' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.15lpinw1p72hzz1eqepjb1210axz' name='Likert' table='[Likert$]' type='table'>
+          <columns gridOrigin='A1:C7:no:A1:C7:0' header='yes' outcome='2'>
+            <column datatype='string' name='Questions' ordinal='0' />
+            <column datatype='integer' name='Ratings' ordinal='1' />
+            <column datatype='integer' name='User' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Likert]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:C7:no:A1:C7:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Questions</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Questions]</local-name>
+            <parent-name>[Likert]</parent-name>
+            <remote-alias>Questions</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Likert_03149821F380409982220CBEAAEAB285]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ratings</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ratings]</local-name>
+            <parent-name>[Likert]</parent-name>
+            <remote-alias>Ratings</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Likert_03149821F380409982220CBEAAEAB285]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>User</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[User]</local-name>
+            <parent-name>[Likert]</parent-name>
+            <remote-alias>User</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Likert_03149821F380409982220CBEAAEAB285]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Likert' datatype='table' name='[__tableau_internal_object_id__].[Likert_03149821F380409982220CBEAAEAB285]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/W209/Usability Study/Likert (meeting likert scale-likert).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='04/07/2021 03:30:03 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='Likert (meeting likert scale-likert)' increment-value='%null%' refresh-type='create' rows-inserted='6' timestamp-start='2021-04-07 03:30:03.689' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Questions</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Questions]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Questions</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Likert</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Likert_03149821F380409982220CBEAAEAB285]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ratings</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Ratings]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ratings</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Likert</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Likert_03149821F380409982220CBEAAEAB285]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>User</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[User]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>User</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Likert</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Likert_03149821F380409982220CBEAAEAB285]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Likert' id='Likert_03149821F380409982220CBEAAEAB285'>
+            <properties context=''>
+              <relation connection='excel-direct.15lpinw1p72hzz1eqepjb1210axz' name='Likert' table='[Likert$]' type='table'>
+                <columns gridOrigin='A1:C7:no:A1:C7:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Questions' ordinal='0' />
+                  <column datatype='integer' name='Ratings' ordinal='1' />
+                  <column datatype='integer' name='User' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Questions - Ratings By User'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Likert (meeting likert scale-likert)' name='federated.0ko8y561he96131fy29151sh3ejt' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ko8y561he96131fy29151sh3ejt'>
+            <column datatype='string' name='[Questions]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Ratings]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[User]' role='measure' type='quantitative' />
+            <column-instance column='[Questions]' derivation='None' name='[none:Questions:nk]' pivot='key' type='nominal' />
+            <column-instance column='[User]' derivation='None' name='[none:User:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Ratings]' derivation='Sum' name='[sum:Ratings:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0ko8y561he96131fy29151sh3ejt].[none:Questions:nk]' value='336' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0ko8y561he96131fy29151sh3ejt].[none:User:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0ko8y561he96131fy29151sh3ejt].[none:Questions:nk]</rows>
+        <cols>[federated.0ko8y561he96131fy29151sh3ejt].[sum:Ratings:qk]</cols>
+      </table>
+      <simple-id uuid='{997F815C-BCF6-4256-8736-EDEFBA8CAA24}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{6064B4D0-6C44-4204-B693-ACA4501F65B9}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Questions - Ratings By User'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0ko8y561he96131fy29151sh3ejt].[none:User:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ko8y561he96131fy29151sh3ejt].[none:Questions:nk]</field>
+            <field>[federated.0ko8y561he96131fy29151sh3ejt].[none:User:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D29BDD9B-D789-4B14-ABA3-929B9BAEC8F4}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{44775E2E-840F-4351-80DE-93BA93DE4B06}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='127' name='Questions - Ratings By User' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAAB/CAYAAAC5QM2nAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAPdElEQVR4nO3cfVBUV5rH8W8WdaHUIRJ1QSIB5J24YgQNComjU0lhXmTNrm5enDhjxo5O
+      djUxmsyaKFDjlLtZJ7urVEKEQGKiMQ4JxgwUVqXUYCCLkkZU8KWhWzTAoAENkiaNXWf/6Bca
+      EEXHtFue5/MX3Nv3nnMP99d97uU+fYdSSiGEpv7mVndAiFtJAiC0JgEQWpMACK1JAITWJABC
+      axIAoTUJgNCaBEBoTQIgtCYBEFqTAAitSQCE1iQAQmsSAKE1CYDQmgRAaE0CILQmARBakwAI
+      rUkAhNYkAEJrEgChNQmA0JoEQGhNAiC0JgEQWpMACK1JAITWJABCaxIAoTUJgNCaFwPQxOcZ
+      f2DPuT6LuyrYbDDwu0/MfVdQsflFth33Vv+uraUki7xqr7ZISZbBy206jjOrpMVzAVmGPLzS
+      DW+2hVcDMI6IqHOcNHX1Xmwx05aaSnDDaS72XoG5PpboSO/10KU6z/sn3ZUFkrY2h8UJt7ob
+      aazNWczN7MaAY/wTtHU1Xp0CRUbHUm+29FpmrjURkfgY93KUWs9sNJk4GRxFhI83eyh0M8Sb
+      jflERBG820QTMYwD4CKnGwKJnutPQHgbFRZIjnG8tuu0hR/DH8HfvbWd81Xb2LK9EkuHjWGj
+      o5n9tIH0uOHO9dXkZTXzyNqHGFJRwJvbKvnbOZmsTQsE+3mqtm1he6WFDtswRkfP5mlDOu5N
+      XVpKyFpXxLcAlQYqnYunLvV4F+5u5eCOD/iswkSrFe6Mn8/y385knCuog23LXssHr+wj8vfL
+      mObrsbxxF69tH8FLr8wmgBZKst6BJWtJC3Ss7qzdwf+8ewBLhw2GjSR06pP85qkpjPZx9v8d
+      WLI2jUD3DqvJM1QxxfWuaj9P1Z/ep6jCRKvVDsNGEz37aQzpcfTtYq9x8dxvdR6Gtyr7vcw1
+      TvbzVfzp/SIqTK04mvD4W11rjK9wDPbzVWzbsp1KSwc2Hz/GJy/kedcxO/uTdTaVf/b7ksKS
+      w47zY9wslr68wD3u9qZ9vP1WEcdardh9/Bgb/zDPLkoD5VXfqt3r3lB7Lzh/tZarTW/sVReU
+      UqomX60pbHC/siZ/pfqwrmdLa02+ysguU03Wy0qpy8raVKayV69Xpc2uVxhVbmaxqv06W2W8
+      Waxq22yuLVVNfobKLmtSjk2tqqksW61eX6qa1ZUZc5eoXGP/5c3FmWrp6v9QH5XVqzabUury
+      RVWZs0K90XNA19HWZXVs60qV/bW119KGwlfVpnLXsmZVnJmpil0bXzaq3JWb1L4mq3Ls/ryq
+      LytVB1vdHVSZmcV92jKq3CW5yn04rQfVruJqdeaSY3wuW5vUvk29+9FcnKkyiz32csX9ehxJ
+      Q6Fau75YfXvZ1cQuVVx9RjmauKysTfvUppXZyvNQBxrjfm1Za1T+6tdVfqVzTG1tyvjh62pl
+      ziF1qWdnaskLGWpLcbXz/LCpxqJMtcJ9AjnG8ePaNmVTSinbJXWmukh9eVIpL98FGkdEVAv1
+      ZrvjV4uZzpgox7t8ZDSB7usAM6dOhBIW6tquC+N+G48aUgjy9QF88A1KwTB/NHvLPS6e27/g
+      47rpvLwijdhRQ52bGtlvexRDShCOTX0JSjEwf/Reyvtedw/ClCdXsSAlnFFDAZ+fkTT1Xn6w
+      Wm+gLR/iZkznzEEjPTO/41SUjydpsm/fFzt0W7EO/TuCx/ri2P1dhKc8ROKY6ziAMYk8njaJ
+      u4c7xsfHN4gHU2JpPdd2HTvx0FlNwfvt/MPyNPen4JjEx0mbdDeOJnzwDXqQlNhWbqSJi1+X
+      Ypr+HIuSnGM6dBQJTz1HauOf+dLjOj14joHn0iY5z4+hjJ+WxCira2StWK3+BIWMYijA0OHc
+      PWkuqZFengIBhIaF8l5DIySEYa41MT7uKccK3wiibJ9iss9kyqXTNIyMItV9Hlgw11exf5mh
+      /w6nTu352XcaTy9M6P1RbjFTX7Wfa216U1xvW2GJ3N/yMV9fTGamP9hrD/FN7HQWDHD+4zuZ
+      X0zZw+aVrxMSP4WE1ESmTXCdaIPViemL7ex0ThV6OjgFnBPTwWthz39/yqhfriXBc9A7TXyx
+      fSclhy38tU00WhoISwjpszSE6Lh2vmoBj7neVYQxfc4dvLnmZcoik0iYmsTUifdwl6+P9wPg
+      G3cvd+09xTlGcOp4INFzXWvGEBnTQsUpSOiq50LMLHre2Lqx/TiVpde6O+A3ghF9L5q7bfw4
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
